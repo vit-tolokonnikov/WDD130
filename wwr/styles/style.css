@@ -123,6 +123,7 @@ h4 {
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+    text-align: center;
 }
 .card-img {
     border: 10px solid black;
