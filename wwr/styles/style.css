@@ -196,6 +196,37 @@ main section img {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+
+/* New styles for page Rivers  START */
+.section_first_block {
+    text-align: left;
+}
+.section_second_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.section_second_block p {
+    margin: 0 0 20px 0;
+} 
+.section_third_block {
+    display: flex;
+    justify-content: space-between;
+}
+.section_third_block p {
+    margin: 0 0 20px 0;
+}
+.wrapper_text_block_2 {
+    margin-right: 30px;
+    text-align: left;
+}
+.wrapper_text_block_3 {
+    margin-left: 30px;
+    text-align: left;
+}
+
+/* END */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
