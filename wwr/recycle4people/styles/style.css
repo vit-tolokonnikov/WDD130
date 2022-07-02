@@ -121,6 +121,9 @@ main {
 .main-text {
     margin-bottom: 50px;
 }
+.main-text-title {
+    margin-bottom: 25px;
+}
 .list-container {
     display: flex;
     justify-content: space-between;
