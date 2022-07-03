@@ -32,6 +32,8 @@ body {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
 header {
@@ -100,7 +102,7 @@ header {
 
 .banner-img {
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 100px);
     object-fit: cover;
 }
 
@@ -115,7 +117,7 @@ header {
     width: 40%;
 }
 main {
-    font-size: 24px;
+    font-size: 18px;
     margin: 30px 100px;
 }
 .main-text {
@@ -150,6 +152,17 @@ footer {
 .footer-site-name {
     padding-left: 100px;
 }
+.footer-link-item {
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer-link-item:visited {
+    color: var(--accent1-color);
+}
+.footer-link-item:hover {
+    color: var(--nav-hover-link-color);
+}
+
 .social {
     padding-right: 100px;
 }
