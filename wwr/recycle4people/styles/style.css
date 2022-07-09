@@ -55,7 +55,7 @@ header {
 }
 .top-link-nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
     padding-right: 100px;
@@ -136,6 +136,39 @@ main {
 }
 .list-title {
     margin-bottom: 25px;
+}
+
+.first_container_learn-more {
+    display: flex;
+}
+.first_image_learn-more, .second_image_learn-more {
+    width: 40%;
+}
+.first_block_text {
+    margin-left: 30px;
+}
+.second_container_learn-more {
+    display: flex;
+    margin-top: 50px;
+}
+.second_block_text {
+    margin-right: 70px;
+}
+.second_block_text h3 {
+    margin: 10px 0;
+}
+.second_block_text p {
+    margin-bottom: 30px;
+}
+.first_block_text h3 {
+    margin-bottom: 10px;
+}
+.first_block_text p {
+    margin-bottom: 30px;
+}
+.learn-more-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 footer {
