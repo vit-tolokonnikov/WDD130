@@ -166,9 +166,29 @@ main {
 .first_block_text p {
     margin-bottom: 30px;
 }
+.first_block_text div {
+    margin-bottom: 30px;
+}
 .learn-more-title {
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.lifehack-main-text {
+    width: 600px;
+    margin: 0 auto;
+}
+.lifehack-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lifehack-images img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
 }
 
 footer {
